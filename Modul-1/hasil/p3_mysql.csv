@@ -1,0 +1,13 @@
+kategori,usia,min,max,fungsi,mu
+bayi,1,0.00,2.00,satu,1.0000
+bayi,4,2.00,5.00,fungsi_bayi_turun,0.3333
+anak,7,6.00,8.00,fungsi_anak_naik,0.5000
+anak,10,9.00,11.00,fungsi_anak_turun,0.5000
+remaja,11,10.00,12.00,fungsi_remaja_naik,0.5000
+remaja,18,17.00,19.00,fungsi_remaja_turun,0.5000
+pemuda,16,15.00,17.00,fungsi_pemuda_naik,0.5000
+pemuda,23,22.00,24.00,fungsi_pemuda_turun,0.5000
+dewasa,21,20.00,22.00,fungsi_dewasa_naik,0.5000
+dewasa,64,63.00,65.00,fungsi_dewasa_turun,0.5000
+lansia,68,65.00,70.00,fungsi_lansia_naik,0.6000
+lansia,96,95.00,100.00,fungsi_lansia_turun,0.8000

@@ -1,0 +1,26 @@
+Ekstrem bawah: CPU=0%, RAM=0%
+{'CPU': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}}
+Beban ringan: CPU=20%, RAM=30%
+{'CPU': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}}
+Transisi rendah-normal: CPU=35%, RAM=45%
+{'CPU': {'Rendah': 0.25, 'Normal': 0.25, 'Tinggi': 0.0}, 'RAM': {'Rendah': 0.25, 'Normal': 0.25, 'Tinggi': 0.0}}
+Beban menengah: CPU=50%, RAM=60%
+{'CPU': {'Rendah': 0.0, 'Normal': 1.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 0.0, 'Normal': 1.0, 'Tinggi': 0.0}}
+Transisi normal-tinggi: CPU=65%, RAM=75%
+{'CPU': {'Rendah': 0.0, 'Normal': 0.25, 'Tinggi': 0.25}, 'RAM': {'Rendah': 0.0, 'Normal': 0.25, 'Tinggi': 0.25}}
+Beban tinggi: CPU=85%, RAM=90%
+{'CPU': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}, 'RAM': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}}
+Ekstrem atas: CPU=100%, RAM=100%
+{'CPU': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}, 'RAM': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}}
+
+HASIL FUZZIFIKASI DATA PENGUKURAN NYATA
+WAMP dan VS Code terbuka: CPU=3.9%, RAM=91.4%
+{'CPU': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}}
+Menjalankan kode praktikum: CPU=2.0%, RAM=91.2%
+{'CPU': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}}
+Chrome terbuka: CPU=5.6%, RAM=91.7%
+{'CPU': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}}
+membuka beberapa tab browser: CPU=2.4%, RAM=92.9%
+{'CPU': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}}
+membuka file explorer: CPU=1.9%, RAM=92.4%
+{'CPU': {'Rendah': 1.0, 'Normal': 0.0, 'Tinggi': 0.0}, 'RAM': {'Rendah': 0.0, 'Normal': 0.0, 'Tinggi': 1.0}}

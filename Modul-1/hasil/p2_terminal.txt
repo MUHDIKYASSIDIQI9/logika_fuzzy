@@ -1,0 +1,17 @@
+Waktu respons server
+Input | Cepat | Sedang | Lambat | Dominan
+1 | 1.000 | 0.000 | 0.000 | Cepat
+2.5 | 0.750 | 0.000 | 0.000 | Cepat
+3.5 | 0.250 | 0.250 | 0.000 | Cepat/Sedang
+5 | 0.000 | 1.000 | 0.000 | Sedang
+6.5 | 0.000 | 0.250 | 0.250 | Sedang/Lambat
+7.5 | 0.000 | 0.000 | 0.750 | Lambat
+9 | 0.000 | 0.000 | 1.000 | Lambat
+Penggunaan CPU server
+Input | Rendah | Normal | Tinggi | Dominan
+10 | 1.000 | 0.000 | 0.000 | Rendah
+35 | 0.250 | 0.250 | 0.000 | Rendah/Normal
+50 | 0.000 | 1.000 | 0.000 | Normal
+65 | 0.000 | 0.250 | 0.250 | Normal/Tinggi
+75 | 0.000 | 0.000 | 0.750 | Tinggi
+95 | 0.000 | 0.000 | 1.000 | Tinggi
